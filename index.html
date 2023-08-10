@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patewen - студия разработки и дизайна</title>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- ====  REMIXICON CDN ==== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ==== HEADER ==== -->
+    <header class="container header">
+      <!-- ==== NAVBAR ==== -->
+      <nav class="nav">
+        <div class="logo">
+          <h2><b>Patewen Studio</b></h2>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link" style="color: #009B77;"><b>Главная</b></a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="https://t.me/patewen" class="nav_menu_link">О студии</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="https://t.me/patewen" class="nav_menu_link">Сервисы</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="https://t.me/patewen_support_bot" class="nav_menu_link">Поддержка</a>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading">
+              <b style="color: #fff">Мы - <span>Patewen Studio.</span></b>
+            </h1>
+            <p class="info-text">
+              <b>Наша является студия лидером в сфере разработки</b> и одни из главным разработчиков СНГ софта. Не верите? Тогда попробуйте сами!
+            </p>
+
+            <div class="btn_wrapper">
+              <a class="btn view_more_btn" href="https://t.me/patewen_bot">
+                Заказать <i class="ri-arrow-right-line"></i>
+              </a>
+
+              <a class="btn documentation_btn" href="https://t.me/patewen">Подробнее</a> 
+            </div>
+          </div>
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img src="./img/title.png" alt="team-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="grid-cols-3">
+          <div class="grid-col-item">
+            <div class="icon">
+                <img src="./img/internet.png"></img>
+            </div>
+            <div class="featured_info">
+              <span><b>Почему мы?</b></span>
+              <p>
+                <i>Вы ищите профессионалов в сфере IT разработки и дизайна?
+                  Вы пришли к тем кто вас действительно нужен...
+                  Благодаря тому что у нас отличная репутация, много отзывов, солидное портфолио и самое главное - <b>доверие клиентов к нам</b>
+                </i>                
+              </p>
+            </div>
+          </div>
+          <div class="grid-col-item">
+            <div class="icon">
+              <div class="icon">
+                <img src="./img/rest.png"></img>
+              </div>
+            </div>
+            <div class="featured_info">
+              <span><b>Наше мастерство</b></span>
+              <i>
+                Наше мастерство - доказанно нашими же работами, наше портфолио и отзывы - прямой того показатель. Клиенты довольны нашими работами и вы можете связаться с ними в любой момент, а значит - все прозрачно. Очередное доказательно нашего лидерства.
+              </i>
+            </div>
+          </div>
+
+          <div class="grid-col-item">
+            <div class="icon">
+              <img src="./img/ssh.png"></img>
+            </div>
+            <div class="featured_info">
+              <span><b>Преимущество над другими студиями</b></span>
+              <p>
+                <i>
+                  У нас есть скидки, личный хост и другие улучшающие вам жизнь инструменты. Мы - всегда впереди. А значит, заказ у нас - лучшее решение для вашего проекта.
+                </i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./script.js" defer></script>
+  </body>
+</html>
